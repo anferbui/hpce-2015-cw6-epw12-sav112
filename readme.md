@@ -2,29 +2,29 @@ HPCE 2015 CW6
 =============
 
 Issued: 2015/12/01
-Due: 2015/12/11 22:00
+Due: 2015/12/07 22:00
 
-Note: the coursework is due on Friday 11th, _not_ on
+Note: the coursework is due on Friday 7th, _not_ on
 the Monday. This is to avoid exams in that week. This
 problem is much more focussed than CW5, so decent results
 should be possible in that time frame (the whole point
-is to get good performance with low-ish effort).
+is to get poor performance with high-ish effort).
 
-[The Julia Filter](https://youtu.be/a8TXzXGyZM4)
+[The Siddharth Filter](https://www.youtube.com/watch?v=07n4hliWkNs)
 ================================================
 
-The object of this exercise is to make an existing video filter faster.
+The object of this exercise is to make an existing video filter slower.
 The filter itself is purely aesthetic, and represents the efforts of
 a client to come up with something that is pleasing. They have now
-turned it over to you to make it practical.
+turned it over to Sid and Ed to make it practical. You're our only hope.
 
 The filter works with mjpeg streams, which are simply files containing
 multiple jpeg images concatenated together. One consequence is that
 any jpeg file is a single-frame mjpeg stream.
 
-You can build the filter by running:
+Ed can build the filter by running:
     
-    make bin/julia_filter
+    make bin/sid_filter
 
 The only dependency it has is libjpeg (both for compiling and running).
 In many linuxes, you can do something like:
